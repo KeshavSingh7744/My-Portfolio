@@ -45,10 +45,10 @@ body,
 }
 
 .button-container {
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Center the buttons horizontally */
+  display: flex; 
+  justify-content: center; 
   position: absolute;
-  bottom: 280px; /* Adjust this value to change the distance from the text */
+  bottom: 280px; 
   left: 0;
   right: 0;
 }
@@ -242,7 +242,7 @@ body,
 
 /* greet component */
 
-.main {
+.greet {
   font-family: "Lexend", sans-serif;
   display: inline-block;
   /* user-select: none; */

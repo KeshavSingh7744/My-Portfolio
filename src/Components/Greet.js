@@ -19,7 +19,7 @@ const Greet = () => {
 
   return (
     <>
-      <div className="main absolute top-[45%] ml-12 text-white">
+      <div className="greet absolute top-[45%] ml-12 text-white">
         <div className="text">
           <h1 className="text-3xl h1 ">
             Hi . I am <span className="text-orange-400">Keshav</span>
