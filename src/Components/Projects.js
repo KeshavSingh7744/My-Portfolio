@@ -118,7 +118,7 @@ const Projects = () => {
           <motion.div
             className="project-box relative w-[600px]  h-fit border-[2px] border-green-400 rounded-lg p-2 shadow-glow1"
             whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0, x: -80 }}
             transition={{ duration: 1.5, delay: 0.5 }}
             // onMouseEnter={() => handleMouseEnter2(0)}
             // onMouseLeave={() => handleMouseLeave2(0)}
@@ -160,7 +160,7 @@ const Projects = () => {
           <motion.div
             className="project-box w-[600px] h-fit border-[2px] border-blue-500 rounded-lg p-2 shadow-glow2"
             whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 50 }}
+            initial={{ opacity: 0, x: 80 }}
             transition={{ duration: 1.5, delay: 0.5 }}
           >
             <motion.h3
@@ -187,7 +187,7 @@ const Projects = () => {
           <motion.div
             className="project-box w-[600px] h-fit border-[2px] border-[#FFD700] rounded-lg p-2 shadow-glow3"
             whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0, x: -80 }}
             transition={{ duration: 1.5, delay: 0.5 }}
           >
             <motion.h3
@@ -214,7 +214,7 @@ const Projects = () => {
           <motion.div
             className="project-box w-[600px] h-fit border-[2px] border-pink-400 rounded-lg p-2 shadow-glow4"
             whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 50 }}
+            initial={{ opacity: 0, x: 80 }}
             transition={{ duration: 1.5, delay: 0.5 }}
           >
             <motion.h3
@@ -241,7 +241,7 @@ const Projects = () => {
           <motion.div
             className="project-box w-[600px] h-fit border-[2px] border-orange-400 rounded-lg p-2 shadow-glow5"
             whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0, x: -80 }}
             transition={{ duration: 1.5, delay: 0.5 }}
           >
             <motion.h3
@@ -268,7 +268,7 @@ const Projects = () => {
           <motion.div
             className="project-box w-[600px] h-fit border-[2px] border-sky-400 rounded-lg p-2 shadow-glow6"
             whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 50 }}
+            initial={{ opacity: 0, x: 80 }}
             transition={{ duration: 1.5, delay: 0.5 }}
           >
             <motion.h3
