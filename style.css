@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* THE ERROR IS : user-select is not compatible in safari  */
+
+html,
+body,
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* scroll bar */
+
+/* Custom scrollbar style */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black; /* Color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey; /* Color of the handle */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(105, 94, 94); /* Color on hover */
+}
+
+.button-container {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center the buttons horizontally */
+  position: absolute;
+  bottom: 280px; /* Adjust this value to change the distance from the text */
+  left: 0;
+  right: 0;
+}
+
+.btn {
+  font-family: "Lexend Deca", sans-serif;
+  position: relative;
+  overflow: hidden;
+  transition-duration: 1s;
+  z-index: 2;
+  margin: 0 8px;
+  width: 170px;
+  text-align: center;
+  /* user-select: none; */
+}
+
+.btn:hover span {
+  color: black;
+}
+
+.btn:hover {
+  transform: scale(98%);
+}
+
+.animate {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: -1;
+  transform: translateY(100%);
+  transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn:hover .animate {
+  transform: translateY(0);
+}
+
+/* About Page */
+
+.card1 p {
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 400;
+}
+
+.card2 h1 {
+  font-family: "Signika", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.skills li {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+.glass-card {
+  background: transparent;
+  /* backdrop-filter: blur(2px); */
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px 0px rgb(223, 216, 216);
+  padding: 20px;
+  transition: all 0.4s ease-in-out;
+  animation: bounceIn 0.7s ease-out;
+}
+
+.skills .card2:hover h1 {
+  color: white;
+  transition: all;
+  transition-duration: 1000ms;
+}
+
+.skills .card2:hover li {
+  color: aqua;
+  transition: all;
+  transition-duration: 1000ms;
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.glass-card:hover {
+  transform: scale(1.04); /* Move the card up slightly on hover */
+  background-color: rgba(255, 255, 255, 0.1); /* Change the background color */
+  box-shadow: none;
+}
+
+.music-btn {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.2s ease-in-out;
+}
+
+.shadow-glow-btn {
+  box-shadow: 0 0px 10px cyan;
+}
+
+@keyframes bounce {
+  0% {
+    opacity: 0;
+    transform: translateY(-45px);
+  }
+  70% {
+    opacity: 1;
+    transform: translateY(12px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bounce-animation {
+  animation: bounce 1s ease-in-out;
+}
+
+/* Project Page */
+
+.btnP{
+  font-family: "Lexend Deca", sans-serif;
+  /* cursor: pointer; */
+}
+
+.heading {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.para-content {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.project-h3 {
+  font-family: "Prompt", sans-serif;
+  color: rgb(163, 218, 82);
+}
+
+.second-h3 {
+  color: blue;
+}
+
+.third-h3 {
+  color: white;
+}
+
+.fourth-h3 {
+  color: plum;
+}
+
+.fifth-h3 {
+  color: orange;
+}
+
+.sixth-h3 {
+  color: paleturquoise;
+}
+
+.shadow-glow1 {
+  box-shadow: 0 0 30px rgb(148, 205, 64, 10);
+}
+
+.shadow-glow2 {
+  box-shadow: 0 0 50px blue;
+}
+
+.shadow-glow3 {
+  box-shadow: 0 0 30px whitesmoke;
+}
+
+.shadow-glow4 {
+  box-shadow: 0 0 30px rgb(225, 152, 164);
+}
+
+.shadow-glow5 {
+  box-shadow: 0 0 30px rgb(240, 149, 58);
+}
+
+.shadow-glow6 {
+  box-shadow: 0 0 30px rgb(76, 202, 206);
+}
+
+/* greet component */
+
+.main {
+  font-family: "Lexend", sans-serif;
+  display: inline-block;
+  /* user-select: none; */
+}
