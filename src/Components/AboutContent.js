@@ -107,7 +107,7 @@ const AboutContent = () => {
         </div>
 
         <div className="skills">
-          <div className="glass-card card2 w-[402px] h-[300px] duration-700 bg-transparent">
+          <div className="glass-card card2 w-[402px] h-[300px] duration-200 bg-transparent">
             <h1 className="text-center h1 cursor-default text-cyan-400 -mt-1">
               SKILLS
             </h1>
