@@ -86,7 +86,7 @@ const AboutContent = () => {
 
       <div className="text-white w-full h-full flex items-center justify-between px-8">
         <div className="info">
-          <div className="glass-card card1 w-[400px] h-[300px]  duration-700 hover:bg-transparent">
+          <div className="glass-card card1 w-[400px] h-[300px]  duration-200 hover:bg-transparent">
             <p className="leading-8 text-lg cursor-default para-about ">
               <span className="text-gray-400 font-bold text-[22px]">
                 Hi there!
