@@ -61,14 +61,14 @@ const AboutContent = () => {
     <>
       <div className="text-white flex gap-x-4 ml-8 mt-8 absolute ">
         <Link to="/">
-        <h3 className="btnP cursor-pointer hover:text-gray-400 transition-all duration-500 hover:scale-[0.98]">
-          Home
-        </h3>
+          <h3 className="btnP cursor-pointer hover:text-gray-400 transition-all duration-500 hover:scale-[0.98]">
+            Home
+          </h3>
         </Link>
-        <Link to='/projects'>
-        <h3 className="btnP cursor-pointer hover:text-gray-400 transition-all duration-500 hover:scale-[0.98]">
-          Projects
-        </h3>
+        <Link to="/projects">
+          <h3 className="btnP cursor-pointer hover:text-gray-400 transition-all duration-500 hover:scale-[0.98]">
+            Projects
+          </h3>
         </Link>
       </div>
 
